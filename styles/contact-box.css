@@ -1,0 +1,137 @@
+
+h1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  margin: 0px;
+}
+
+.contact-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.circle {
+  position: absolute;
+  right: 24px;
+  top: 167px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: 0;
+  filter: blur(10px);
+  opacity: 0;
+  z-index: -1;
+}
+
+
+.name-and-contact button {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  border-style: none;
+  background-color: transparent;
+}
+
+.name-and-contact button:hover + .circle {
+  opacity: 1;
+  transition: .45s;
+}
+
+
+
+
+
+h6 {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px;
+  padding-bottom: 5px;
+}
+
+h5 {
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 2px 5px;
+  color: #141414;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.years {
+  background-color: #91B4DD;
+}
+
+.motion-designer {
+  background-color: #9169BA;
+  margin-right: 10px;
+}
+
+.uiux-designer {
+  background-color: #CB8686;
+}
+
+
+
+.box-container {
+  position: absolute;
+  top: 30%;
+  width: 373px;
+  min-width: 373px;
+  height: 347px; 
+  background: #141414;
+  border: 2px solid #1A1A1A;
+  border-radius: 5px;
+  z-index: -100;
+}
+
+
+
+.img-profile {
+  margin-top: 80px;
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+  border: 5px solid #141414;
+  border-radius: 360px;
+  z-index: 100;
+}
+
+
+.banner {
+  position: absolute;
+  z-index: -1;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.online {
+  position: absolute;
+  top: 131px;
+  left: 86px;
+}
+
+
+.name-and-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #1D1D1D;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.bottom-half {
+  padding: 0px 20px;
+}
+
+.first-row {
+  margin-bottom: 10px;
+}
